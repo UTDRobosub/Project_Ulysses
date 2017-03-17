@@ -9,4 +9,4 @@ libraries folder. If you would like to more info an PID loops please go the Foll
 website: (http://brettbeauregard.com/blog/2012/01/arduino-pid-autotune-library/).
 If you find better resource for this, please share it with me (text it to me). 
 
-Sonar senors stuff is coming soon, so please do some research into 
+Sonar senors stuff is coming soon, so please do some research into digital signal processing.
