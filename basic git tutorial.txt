@@ -1,0 +1,21 @@
+Setting up global users
+	git config --global user.name "John Doe"
+	git config --global user.email johndoe@example.com
+
+Cloning a repository
+	git clone [file path https format]
+
+Downloading recent changes to a repository
+	first 'cd' into the repository, then type 'git pull'
+
+Uploading to a master repository
+	first use 'git commit' for each file, then type 'git push origin master'
+
+viewing logs
+	git log
+	
+for more info: https://git-scm.com/doc
+
+I will posting more commands on a later date.
+
+	
