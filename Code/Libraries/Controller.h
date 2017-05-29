@@ -1,5 +1,5 @@
-#ifndef CONTROLLER_H
-#define CONTROLLER_H
+#ifndef ROBOTMOTOR_H
+#define ROBOTMOTOR_H
 
 /*3/16/2017
 The following functions need to be made: moveForward(), moveBack(), turnLeft(),
@@ -14,11 +14,9 @@ If you find better resource for this, please share it with me (text it to me).
 
 Sonar senors stuff is coming soon, so please do some research into digital signal processing.*/
 
-class Controller
+class Motor
 {
     public:
-        Controller();
-        virtual ~Controller();
         void moveForward(int,int);
         void moveBack(int,int);
         void turnLeft(int,int);
@@ -26,7 +24,6 @@ class Controller
         void strafeLeft(int,int);
         void strafeRight(int,int);
         void turnMotors(int,int);
-
     private:
 };
 
